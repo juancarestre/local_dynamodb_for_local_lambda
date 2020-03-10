@@ -1,0 +1,1 @@
+aws dynamodb put-item --endpoint-url http://localhost:8000 --table-name demo-customer-info --item '{\"customerId\": {\"S\": \"1111\"}, \"email\": {\"S\": \"email@something.com\"}}'

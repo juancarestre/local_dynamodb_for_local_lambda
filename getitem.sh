@@ -1,0 +1,1 @@
+aws dynamodb get-item --endpoint-url http://localhost:8000 --table-name demo-customer-info --key '{\"customerId\": {\"S\": \"1111\"}}'
